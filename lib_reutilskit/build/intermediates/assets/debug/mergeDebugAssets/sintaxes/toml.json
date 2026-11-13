@@ -1,0 +1,10 @@
+{
+  "nome": "TOML",
+  "extensoes": ["toml"],
+  "regras": [
+    { "nome": "Comentário", "regex": "#.*", "cor": "#6A9955" },
+    { "nome": "Seção", "regex": "^\\s*\\[.*?\\]", "cor": "#569CD6" },
+    { "nome": "Chave", "regex": "^\\s*([a-zA-Z0-9_-]+)(?=\\s*=)", "cor": "#4EC9B0" },
+    { "nome": "String", "regex": "\"([^\"]*)\"|'([^']*)'", "cor": "#CE9178" }
+  ]
+}
