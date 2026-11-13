@@ -1,0 +1,9 @@
+{
+  "nome": "Makefile",
+  "extensoes": ["makefile", "mk"],
+  "regras": [
+    { "nome": "Comentário", "regex": "#.*", "cor": "#6A9955" },
+    { "nome": "Alvo", "regex": "^[a-zA-Z0-9_-]+(?=:)", "cor": "#569CD6" },
+    { "nome": "Variável", "regex": "\\$[({][a-zA-Z0-9_]+[)}]", "cor": "#4EC9B0" }
+  ]
+}
