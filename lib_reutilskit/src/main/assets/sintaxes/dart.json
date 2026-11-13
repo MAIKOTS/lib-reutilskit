@@ -1,0 +1,10 @@
+{
+  "nome": "Dart",
+  "extensoes": ["dart"],
+  "regras": [
+    { "nome": "Comentário", "regex": "//.*|/\\*[\\s\\S]*?\\*/", "cor": "#6A9955" },
+    { "nome": "String", "regex": "\"([^\"]*)\"|'([^']*)'", "cor": "#CE9178" },
+    { "nome": "Palavras-chave", "regex": "\\b(class|extends|implements|with|import|as|show|hide|void|var|final|const|if|else|for|while|do|switch|case|default|break|continue|return|try|catch|finally|throw|new|this|super|null|true|false|async|await|yield|dynamic|typedef|required|late)\\b", "cor": "#569CD6" },
+    { "nome": "Anotações", "regex": "@[a-zA-Z0-9_]+", "cor": "#DCDCAA" }
+  ]
+}
