@@ -1,0 +1,10 @@
+{
+  "nome": "Kotlin",
+  "extensoes": ["kt", "kts"],
+  "regras": [
+    { "nome": "Comentário", "regex": "//.*|/\\*[\\s\\S]*?\\*/", "cor": "#6A9955" },
+    { "nome": "String", "regex": "\"([^\"]*)\"", "cor": "#CE9178" },
+    { "nome": "Palavras-chave", "regex": "\\b(fun|val|var|class|interface|object|if|else|when|return|import|package|is|in|as|try|catch|finally|throw|for|while|break|continue|this|super|null|true|false|override|open|abstract|data|sealed|enum|companion|init|constructor|suspend|inline|reified|lateinit|by)\\b", "cor": "#569CD6" },
+    { "nome": "Números", "regex": "\\b\\d+(\\.\\d+)?\\b", "cor": "#B5CEA8" }
+  ]
+}
