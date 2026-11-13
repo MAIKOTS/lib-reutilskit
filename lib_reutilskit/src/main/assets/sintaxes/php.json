@@ -1,0 +1,10 @@
+{
+  "nome": "PHP",
+  "extensoes": ["php"],
+  "regras": [
+    { "nome": "Comentário", "regex": "//.*|#.*|/\\*[\\s\\S]*?\\*/", "cor": "#6A9955" },
+    { "nome": "String", "regex": "\"([^\"]*)\"|'([^']*)'", "cor": "#CE9178" },
+    { "nome": "Palavras-chave", "regex": "\\b(function|class|public|private|protected|static|return|if|else|elseif|for|foreach|while|do|switch|case|break|continue|new|echo|print|include|require|namespace|use|extends|implements|try|catch|finally|throw|isset|unset|empty|array)\\b", "cor": "#569CD6" },
+    { "nome": "Variáveis", "regex": "\\$[a-zA-Z_][a-zA-Z0-9_]*", "cor": "#4EC9B0" }
+  ]
+}
