@@ -1,0 +1,10 @@
+{
+  "nome": "Swift",
+  "extensoes": ["swift"],
+  "regras": [
+    { "nome": "Comentário", "regex": "//.*|/\\*[\\s\\S]*?\\*/", "cor": "#6A9955" },
+    { "nome": "String", "regex": "\"([^\"]*)\"", "cor": "#CE9178" },
+    { "nome": "Palavras-chave", "regex": "\\b(class|struct|enum|protocol|extension|func|var|let|if|else|guard|switch|case|default|for|in|while|repeat|return|break|continue|import|init|deinit|self|super|nil|true|false|try|catch|throw|throws|public|private|internal|fileprivate|open|static|final|override|mutating)\\b", "cor": "#569CD6" },
+    { "nome": "Anotações", "regex": "@[a-zA-Z0-9_]+", "cor": "#DCDCAA" }
+  ]
+}
