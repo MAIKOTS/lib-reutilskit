@@ -1,0 +1,9 @@
+{
+  "nome": "SQL",
+  "extensoes": ["sql"],
+  "regras": [
+    { "nome": "Comentário", "regex": "--.*|/\\*[\\s\\S]*?\\*/", "cor": "#6A9955" },
+    { "nome": "String", "regex": "'([^']*)'", "cor": "#CE9178" },
+    { "nome": "Palavras-chave", "regex": "\\b(SELECT|FROM|WHERE|INSERT|INTO|VALUES|UPDATE|SET|DELETE|CREATE|TABLE|ALTER|DROP|JOIN|INNER|LEFT|RIGHT|OUTER|ON|GROUP|BY|ORDER|HAVING|LIMIT|OFFSET|AND|OR|NOT|NULL|IS|IN|LIKE|BETWEEN|CASE|WHEN|THEN|ELSE|END|AS|DISTINCT|UNION|ALL)\\b", "cor": "#569CD6" }
+  ]
+}
