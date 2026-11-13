@@ -1,0 +1,9 @@
+{
+  "nome": "Gitignore",
+  "extensoes": [".gitignore", "gitignore"],
+  "regras": [
+    { "nome": "Comentário", "regex": "#.*", "cor": "#6A9955" },
+    { "nome": "Negação", "regex": "^!.*", "cor": "#CE9178" },
+    { "nome": "Curinga", "regex": "\\*.*", "cor": "#DCDCAA" }
+  ]
+}
