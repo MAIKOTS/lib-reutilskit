@@ -1,0 +1,10 @@
+{
+  "nome": "TypeScript",
+  "extensoes": ["ts"],
+  "regras": [
+    { "nome": "Comentário", "regex": "//.*|/\\*[\\s\\S]*?\\*/", "cor": "#6A9955" },
+    { "nome": "String", "regex": "\"([^\"]*)\"|'([^']*)'|`([^`]*)`", "cor": "#CE9178" },
+    { "nome": "Palavras-chave", "regex": "\\b(function|var|let|const|return|if|else|for|while|do|switch|case|default|break|continue|class|extends|new|this|super|try|catch|finally|throw|typeof|instanceof|in|of|delete|void|yield|async|await|import|export|from|as|interface|type|enum|implements|readonly|public|private|protected|static|abstract|declare)\\b", "cor": "#569CD6" },
+    { "nome": "Tipos", "regex": "\\b(string|number|boolean|any|void|null|undefined|never|object)\\b", "cor": "#4EC9B0" }
+  ]
+}
