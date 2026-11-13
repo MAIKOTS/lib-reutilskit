@@ -1,0 +1,10 @@
+{
+  "nome": "Python",
+  "extensoes": ["py", "pyw"],
+  "regras": [
+    { "nome": "Comentário", "regex": "#.*", "cor": "#6A9955" },
+    { "nome": "String", "regex": "\"([^\"]*)\"|'([^']*)'", "cor": "#CE9178" },
+    { "nome": "Palavras-chave", "regex": "\\b(def|class|import|from|return|if|else|elif|while|for|in|try|except|finally|with|as|pass|break|continue|lambda|global|nonlocal|assert|yield|True|False|None|and|or|not|is)\\b", "cor": "#569CD6" },
+    { "nome": "Decorador", "regex": "@[a-zA-Z0-9_]+", "cor": "#DCDCAA" }
+  ]
+}
