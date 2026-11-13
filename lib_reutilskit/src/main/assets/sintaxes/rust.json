@@ -1,0 +1,9 @@
+{
+  "nome": "Rust",
+  "extensoes": ["rs"],
+  "regras": [
+    { "nome": "Comentário", "regex": "//.*|/\\*[\\s\\S]*?\\*/", "cor": "#6A9955" },
+    { "nome": "String", "regex": "\"([^\"]*)\"", "cor": "#CE9178" },
+    { "nome": "Palavras-chave", "regex": "\\b(fn|let|mut|struct|enum|impl|trait|pub|use|mod|match|if|else|for|while|loop|return|break|continue|const|static|type|ref|move|as|in|where|unsafe|async|await|dyn|Self|self)\\b", "cor": "#569CD6" }
+  ]
+}
