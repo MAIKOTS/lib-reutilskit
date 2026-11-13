@@ -14,6 +14,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Gitigin-Studio"
-include ':app'
+rootProject.name = "lib_reutilskit"
 include ':lib_reutilskit'
