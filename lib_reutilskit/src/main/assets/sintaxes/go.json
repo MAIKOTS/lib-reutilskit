@@ -1,0 +1,9 @@
+{
+  "nome": "Go",
+  "extensoes": ["go"],
+  "regras": [
+    { "nome": "Comentário", "regex": "//.*|/\\*[\\s\\S]*?\\*/", "cor": "#6A9955" },
+    { "nome": "String", "regex": "\"([^\"]*)\"|`([^`]*)`", "cor": "#CE9178" },
+    { "nome": "Palavras-chave", "regex": "\\b(func|package|import|var|const|type|struct|interface|map|chan|go|defer|if|else|for|range|switch|case|default|break|continue|return|select|fallthrough|goto)\\b", "cor": "#569CD6" }
+  ]
+}
