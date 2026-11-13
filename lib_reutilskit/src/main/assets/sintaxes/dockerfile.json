@@ -1,0 +1,9 @@
+{
+  "nome": "Dockerfile",
+  "extensoes": ["dockerfile"],
+  "regras": [
+    { "nome": "Comentário", "regex": "#.*", "cor": "#6A9955" },
+    { "nome": "Instrução", "regex": "^\\s*(FROM|RUN|CMD|LABEL|EXPOSE|ENV|ADD|COPY|ENTRYPOINT|VOLUME|USER|WORKDIR|ARG|ONBUILD|STOPSIGNAL|HEALTHCHECK|SHELL)\\b", "cor": "#569CD6" },
+    { "nome": "String", "regex": "\"([^\"]*)\"|'([^']*)'", "cor": "#CE9178" }
+  ]
+}
